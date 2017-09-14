@@ -1,0 +1,27 @@
+{
+    "name": "hs/laravel-installer",
+    "description": "Laravel project installer wizard",
+    "homepage": "https://github.com/harpreet9629/laravel-installer",
+    "license": "GPLv2",
+    "keywords": [
+        "laravel",
+        "install",
+        "installer",
+        "wizard"
+    ],
+    "authors": [
+        {
+            "name": "Harpreet Singh",
+            "email": "harpreet9629@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "HS\\LaravelInstaller\\": "src/"
+        }
+    }
+}
